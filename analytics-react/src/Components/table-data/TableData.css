@@ -1,0 +1,76 @@
+.main-app-analytics-table-data-details-grid{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px 14px 0px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #00000007;
+    border-bottom: 0.5px solid #F0F0F0;
+    opacity: 1;
+}
+  
+.main-app-analytics-table-data-grid-export-main{
+    margin: 0px 20px 0px 20px;
+}
+  
+.main-app-analytics-table-data-child-grid{
+    word-break: break-all;
+}
+  
+.main-app-analytics-table-data-child-grid,
+.main-app-analytics-table-data-date-grid {
+    font: normal normal normal 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #1D1A1A;
+    flex: 0 0 12.3%;
+}
+  
+.main-app-analytics-table-data-status-grid .in_progress{
+    color: #83BF11;
+}
+  
+.main-app-analytics-table-data-header-details-grid{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px 0px 20px;
+    padding: 20px 0px 10px 0px;
+}
+
+.main-app-analytics-table-header-title-grid{
+    flex: 0 0 12.55%;
+    font: normal normal bold 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+}
+
+.main-app-analytics-table-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px 0px 20px;
+    padding: 20px 0px 10px 0px;
+    border-bottom: 0.5px solid #F0F0F0;
+}
+
+.main-app-analytics-table-total-item {
+    font: normal normal normal 28px/34px Lato;
+    letter-spacing: 0px;
+    color: #212121;
+    flex: 0 0 12.5%;
+}
+
+.main-app-analytics-table-total-item:last-child {
+    flex: auto;
+    position: absolute;
+    right: 35px;
+}
+
+.main-app-analytics-table-header-title-grid:last-child {
+    flex: auto;
+    position: absolute;
+    right: 62px;
+}
+
+.main-app-analytics-table-data-child-grid:last-child {
+    position: absolute;
+    right: 50px;
+}

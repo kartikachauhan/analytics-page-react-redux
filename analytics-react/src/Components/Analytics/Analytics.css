@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.main-app {
+    margin: 70px 30px;
+}
+
+.main-app-title {
+    text-align: left;
+    font: normal normal bold 24px/29px Lato;
+    letter-spacing: 0px;
+    color: #1D1A1A;
+    opacity: 1;
+}
+
+.main-app-analytics-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.main-app-analytics-header > div:nth-child(1) {
+    border: 1px solid #70707038;
+    border-radius: 4px;
+    padding: 11px 14px;
+    display: flex;
+    align-items: center;
+}
+
+.main-app-analytics-date {
+    font: normal normal bold 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #212121;
+    cursor: pointer;
+}
+
+.main-app-analytics-title-dropdown {
+    display: flex;
+    align-items: center;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border: 1px solid #70707038;
+    border-radius: 4px;
+    padding: 9.5px 10px;
+    cursor: pointer;
+}
+
+.main-app-analytics-title-dropdown > div {
+    font: normal normal bold 18px/22px Lato;
+    letter-spacing: 0.27px;
+    color: #1D1A1A;
+}
+
+.main-app-analytics-body {
+    margin-top: 40px;
+}
+
+.main-app-analytics-not-found-conatiner {
+    background: #F9F9F9 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.main-app-analytics-not-found-img-container {
+    height: 224px;
+    width: 235px;
+}
+
+.main-app-analytics-not-found-img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-app-analytics-not-found-text-container div {
+    font: normal normal bold 27px/33px Lato;
+    letter-spacing: 0px;
+    color: #1D1A1A;
+}
+
+.main-app-analytics-not-found-text-container div:last-child {
+    font: normal normal bold 20px/24px Lato;
+    letter-spacing: 0px;
+    color: #B9B9B9;
+    margin-top: 16px;
+}
+
+.main-app-analytics-settings-container {
+    border: 1px solid #EAEAEA;
+    border-radius: 4px;
+    height: 195px;
+    margin-top: 10px;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.main-app-analytics-settings-title {
+    font: normal normal bold 12px/15px Lato;
+    color: #212121;
+}
+
+.main-app-analytics-settings-save-close-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+}
+
+.main-app-analytics-settings-save-close-container > div:first-child {
+    border: 1px solid #EAEAEA;
+    border-radius: 3px;
+    width: 69px;
+    height: 42px;
+    font: normal normal normal 18px/22px Lato;
+    letter-spacing: 0.27px;
+    color: #136FED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 11px;
+    cursor: pointer;
+}
+
+.main-app-analytics-settings-save-close-container > div:last-child {
+    background: #136FED 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    width: 148px;
+    height: 42px;
+    font: normal normal normal 18px/22px Lato;
+    letter-spacing: 0.27px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.main-app-analytics-settings-container .DisplayCustomDropDownAd {
+    display: flex !important;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.smooth-dnd-container.horizontal {
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.main-app-analytics-settings-container .DisplayCustomDropDown-label {
+    border: 1px solid #EAEAEA;
+    border-radius: 4px;
+    width: 193px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.DisplayCustomDropDown-label span:first-child {
+    width: 5px;
+    height: 39px;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.DisplayCustomDropDown-label span:last-child {
+    padding-left: 10px;
+}
